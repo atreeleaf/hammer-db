@@ -3,11 +3,11 @@ CC = g++
 
 
 all:
-	g++ main.cpp
+	g++ ./src/main.cpp
 
 clean:
 	rm ./a.out;
 
 start:
-	g++ main.cpp ./services/cliparser.cpp; ./a.out
+	g++ ./src/main.cpp ./src/services/cliparser.cpp; ./a.out
 

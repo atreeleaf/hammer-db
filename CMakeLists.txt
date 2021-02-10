@@ -4,4 +4,4 @@
 cmake_minimum_required (VERSION 2.8.11)
 project (cpp-cache)
 
-add_executable(cpp-cache main.cpp)
+add_executable(cpp-cache src/main.cpp)
