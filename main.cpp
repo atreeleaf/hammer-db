@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
 #include "services/cliparser.h"
-
+#include "services/servicefactory.h"
 using namespace std;
 
 int main(int argc, char* argv[])
 {
-    CliParser* parser = new CliParser();
-    parser->init();
+    services services;
+    services.CliParser->init();
 }

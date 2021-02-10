@@ -5,11 +5,12 @@ CliParser::CliParser() {
     std::cout << "initializing constructor" << std::endl;
 }
 
-CliParser::~CliParser(){
+
+CliParser::~CliParser() {
     std:: cout << "destructing" << std::endl;
 }
 
-void CliParser::init(){
+_Noreturn void CliParser::init() {
     {
         std::cout << "initializing cache" << std::endl;
         while (1) {

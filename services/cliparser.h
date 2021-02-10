@@ -4,5 +4,6 @@ class CliParser {
 public:
     CliParser();
     ~CliParser();
-    void init();
+
+    static _Noreturn void init();
 };
